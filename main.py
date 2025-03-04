@@ -9,6 +9,7 @@ unsupported_blocks_removed = 0
 
 MAX_CODE_BLOCK_LENGTH = 2000
 MAX_BLOCKS_PER_PAGE = 100
+MAX_NESTING_DEPTH = 2
 
 
 def filter_unsupported_blocks(blocks):
@@ -135,6 +136,7 @@ def get_all_children(block_id):
             f"Removed {unsupported_blocks_removed} unsupported block(s)")
         print(f"Removed {unsupported_blocks_removed} unsupported block(s)")
     # Return all children without splitting (preparation will happen later)
+    # Return all children without splitting (preparation will happen later)
     return children
 
 
@@ -198,24 +200,228 @@ def split_long_code_blocks(blocks):
     return result
 
 
+def create_minimal_valid_block(block_type, structure_details=None):
+    """
+    Create a minimal valid block structure based on block type.
+    Some block types require specific structures to be valid.
+
+    Parameters:
+    - block_type: The type of block to create
+    - structure_details: Optional dictionary containing structure information (e.g., table width)
+    """
+    """
+    Create a minimal valid block structure based on block type.
+    Some block types require specific structures to be valid.
+    """
+    if block_type == "table":
+        # Tables must have at least one table_row with the correct number of cells
+        table_width = 1  # Default to 1 cell if structure_details not provided
+        if structure_details and "table_width" in structure_details:
+            table_width = structure_details["table_width"]
+
+        # Create an empty table_row with the correct number of cells
+        return {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+                # Empty cell for each column
+                "cells": [[] for _ in range(table_width)]
+            }
+        }
+    elif block_type == "column_list":
+        # Column lists should have at least one column
+        return {
+            "object": "block",
+            "type": "column",
+            "column": {
+                "children": []
+            }
+        }
+    elif block_type == "column":
+        # Columns can have an empty children array
+        return None
+    else:
+        # Default case - most blocks can have empty children arrays
+        return None
+
+
+def extract_deep_blocks(blocks, current_depth=0, parent_path=None):
+    """
+    Recursively identify blocks that exceed the maximum nesting depth.
+    Returns a tuple containing:
+    1. Modified blocks with deep blocks removed
+    2. Dictionary of deep blocks with their parent paths
+    """
+    if not isinstance(blocks, list):
+        return blocks, {}
+
+    if parent_path is None:
+        parent_path = []
+
+    modified_blocks = []
+    deep_blocks = {}
+
+    logging.debug(
+        f"Processing blocks at depth {current_depth}, path {parent_path}")
+
+    # Enforce stricter nesting depth - extract blocks at the maximum depth
+    # rather than exceeding it
+    if current_depth >= MAX_NESTING_DEPTH:
+        logging.warning(
+            f"Found deeply nested blocks at depth {current_depth} - path {parent_path}")
+        # Store entire block collection at too deep a level
+        path_key = tuple(parent_path[:-1]) if parent_path else tuple()
+        deep_blocks[path_key] = blocks
+        return [], deep_blocks
+
+    for i, block in enumerate(blocks):
+        if not isinstance(block, dict):
+            modified_blocks.append(block)
+            continue
+
+        # Create a path to this block
+        current_path = parent_path + [i]
+
+        # Check if this block has children
+        if block.get("has_children"):
+            block_type = block.get("type")
+
+            # Print details about column_list blocks for debugging
+            # Print details about special block types for debugging
+            if block_type == "column_list":
+                logging.debug(
+                    f"Found column_list block at path {current_path}")
+                if "column_list" in block and "children" in block["column_list"]:
+                    logging.debug(
+                        f"  Column list has {len(block['column_list']['children'])} columns")
+                    for j, column in enumerate(block["column_list"]["children"]):
+                        if column.get("type") == "column" and "column" in column:
+                            has_children = "children" in column["column"]
+                            children_count = len(column["column"].get(
+                                "children", [])) if has_children else 0
+                            logging.debug(
+                                f"  Column {j} has_children: {has_children}, children_count: {children_count}")
+            elif block_type == "table":
+                logging.debug(
+                    f"Found table block at path {current_path}")
+                if "table" in block and "children" in block["table"]:
+                    table_children = block["table"]["children"]
+                    logging.debug(
+                        f"  Table has {len(table_children)} rows")
+
+                    # Determine the table width by analyzing the first row
+                    table_width = 0
+                    if table_children and len(table_children) > 0:
+                        first_row = table_children[0]
+                        if first_row.get("type") == "table_row" and "table_row" in first_row:
+                            if "cells" in first_row["table_row"]:
+                                table_width = len(
+                                    first_row["table_row"]["cells"])
+                                logging.debug(
+                                    f"  Table width determined to be {table_width} cells")
+
+                    for j, row in enumerate(table_children):
+                        if row.get("type") == "table_row" and "table_row" in row:
+                            has_cells = "cells" in row["table_row"]
+                            cells_count = len(row["table_row"].get(
+                                "cells", [])) if has_cells else 0
+                            logging.debug(
+                                f"  Row {j} has_cells: {has_cells}, cells_count: {cells_count}")
+            if block_type and block_type in block and "children" in block[block_type]:
+                children = block[block_type]["children"]
+
+                # Log the structure for debugging
+                logging.debug(
+                    f"Block {current_path} of type {block_type} has {len(children)} children at depth {current_depth}")
+
+                # If we're at max depth, extract children for later appending
+                if current_depth >= MAX_NESTING_DEPTH - 1:
+                    # Store these children with their parent path
+                    path_key = tuple(current_path)
+                    deep_blocks[path_key] = children
+
+                    # List of block types that require children property to always be defined
+                    # even if empty, or Notion API will reject the request
+                    special_block_types = ["column_list", "column", "table"]
+
+                    # Special handling for blocks that need to have a children property
+                    # even if it's empty
+                    if block_type in special_block_types:
+                        logging.info(
+                            f"Preserving minimal valid structure for {block_type} at path {current_path}")
+
+                        # Create minimal valid structure
+                        # Extract structure details if needed
+                        structure_details = {}
+
+                        if block_type == "table" and "children" in block[block_type] and len(block[block_type]["children"]) > 0:
+                            # For tables, determine the width by looking at the first row
+                            first_row = block[block_type]["children"][0]
+                            if first_row.get("type") == "table_row" and "table_row" in first_row:
+                                if "cells" in first_row["table_row"]:
+                                    structure_details["table_width"] = len(
+                                        first_row["table_row"]["cells"])
+                                    logging.info(
+                                        f"Detected table with {structure_details['table_width']} cells per row at {current_path}")
+
+                        # Create minimal valid structure with the detected details
+                        minimal_block = create_minimal_valid_block(
+                            block_type, structure_details)
+
+                        if minimal_block and block_type == "table":
+                            # Tables must have at least one table_row child with the correct number of cells
+                            block[block_type]["children"] = [minimal_block]
+                            logging.info(
+                                f"Added placeholder table_row to table at path {current_path} with {structure_details.get('table_width', 0)} cells")
+                            # Column lists should have at least one column
+                            block[block_type]["children"] = [minimal_block]
+                            logging.info(
+                                f"Added placeholder column to column_list at path {current_path}")
+                        else:
+                            # Other special blocks can have empty children arrays
+                            block[block_type]["children"] = []
+                    else:
+                        # Remove children from the block for initial creation
+                        del block[block_type]["children"]
+
+                    logging.info(
+                        f"Extracted {len(children)} deeply nested blocks at path {current_path} for later appending")
+                else:
+                    # Process children recursively
+                    processed_children, child_deep_blocks = extract_deep_blocks(
+                        children, current_depth + 1, current_path)
+                    block[block_type]["children"] = processed_children
+                    # Add any deep blocks found in children
+                    deep_blocks.update(child_deep_blocks)
+
+        modified_blocks.append(block)
+
+    return modified_blocks, deep_blocks
+
+
 def prepare_blocks_for_notion(blocks):
     """
     Prepare blocks for Notion API by handling validation constraints:
     - Splits code blocks exceeding MAX_CODE_BLOCK_LENGTH characters
-    - Returns prepared blocks for initial page creation and excess blocks for later appending
+    - Extracts blocks that exceed MAX_NESTING_DEPTH for later appending
+    - Returns prepared blocks for initial page creation and data for later appending
     """
     if not isinstance(blocks, list):
-        return blocks, []
+        return blocks, [], {}
 
     # First split any code blocks that exceed the character limit
-    all_blocks = split_long_code_blocks(blocks)
+    blocks_with_split_code = split_long_code_blocks(blocks)
+
+    # Extract deeply nested blocks
+    blocks_with_proper_depth, deep_blocks = extract_deep_blocks(
+        blocks_with_split_code)
 
     # Then separate blocks for initial page creation (up to MAX_BLOCKS_PER_PAGE)
     # from excess blocks that will be appended later
-    initial_blocks = all_blocks[:MAX_BLOCKS_PER_PAGE]
-    excess_blocks = all_blocks[MAX_BLOCKS_PER_PAGE:]
+    initial_blocks = blocks_with_proper_depth[:MAX_BLOCKS_PER_PAGE]
+    excess_blocks = blocks_with_proper_depth[MAX_BLOCKS_PER_PAGE:]
 
-    return initial_blocks, excess_blocks
+    return initial_blocks, excess_blocks, deep_blocks
 
 
 try:
@@ -229,7 +435,7 @@ try:
         notion.databases.query, database_id="7c572848e4f04761b659c8f14c6d516e"
     )
     # List over every doctech
-    for doc in doctech[34:]:
+    for doc in doctech:
         # Get all first level children blocks
         all_blocks = get_all_children(
             doc.get("id"))
@@ -240,7 +446,6 @@ try:
         # Print block and its index
         # for index, block in enumerate(all_blocks):
         #     print(index, block)
-
         label = doc.get("properties").get(
             "Type").get("select").get("name")
 
@@ -270,7 +475,7 @@ try:
             owner_id = owner.get("results")[0].get("id")
             prop = {
                 "Name": {"title": [{"text": {"content": name}}]},
-                "Labels": {"select": {"name": label}},
+                "Type": {"select": {"name": label}},
                 "Owner": {"relation": [{"id": owner_id}]},
                 "Experts": {"relation": [{"id": owner_id}]},
             }
@@ -279,16 +484,16 @@ try:
             # Create page without owner
             prop = {
                 "Name": {"title": [{"text": {"content": name}}]},
-                "Labels": {"select": {"name": label}},
+                "Type": {"select": {"name": label}},
             }
 
         total_blocks = len(all_blocks)
         print(f"Count of blocks: {total_blocks}")
-        # Prepare blocks for Notion - handle code block length limits and nested blocks
-        initial_blocks, excess_blocks = prepare_blocks_for_notion(all_blocks)
+        # Prepare blocks for Notion - handle code block length limits, block count limits, and nesting depth limits
+        initial_blocks, excess_blocks, deep_blocks = prepare_blocks_for_notion(
+            all_blocks)
         print(
-            f"Prepared {len(initial_blocks)} initial blocks with {len(excess_blocks)} excess blocks")
-
+            f"Prepared {len(initial_blocks)} initial blocks with {len(excess_blocks)} excess blocks and {len(deep_blocks)} deep block groups")
         # First create the page with the initial batch of blocks (up to 100)
         print(f"Creating page with initial {len(initial_blocks)} blocks")
 
@@ -325,9 +530,94 @@ try:
                     logging.error(
                         f"Failed to append blocks batch {batch_number}: {append_error}")
 
+        # If we have deeply nested blocks, append them to their parent blocks
+        if deep_blocks:
+            print(f"Processing {len(deep_blocks)} deeply nested block groups")
+
+            # First, get the full block structure of the created page to find block IDs
+            try:
+                # Get the block structure of the created page
+                page_structure = collect_paginated_api(
+                    notion.blocks.children.list, block_id=page_id)
+
+                # Create a mapping of block positions to their IDs
+                block_id_map = {}
+
+                def map_block_ids(blocks, path_prefix=None):
+                    if path_prefix is None:
+                        path_prefix = []
+
+                    for i, block in enumerate(blocks):
+                        current_path = path_prefix + [i]
+                        path_key = tuple(current_path)
+                        block_id_map[path_key] = block.get("id")
+
+                        # If this block has children, recursively map them
+                        if block.get("has_children"):
+                            child_blocks = collect_paginated_api(
+                                notion.blocks.children.list, block_id=block.get("id"))
+                            map_block_ids(child_blocks, current_path)
+
+                # Map all block IDs in the created page
+                map_block_ids(page_structure)
+
+                # Now append deeply nested blocks to their parents
+                for parent_path, children in deep_blocks.items():
+                    if parent_path in block_id_map:
+                        parent_id = block_id_map[parent_path]
+                        print(
+                            f"Appending deep blocks to parent at path {parent_path}")
+
+                        try:
+                            notion.blocks.children.append(
+                                block_id=parent_id,
+                                children=children
+                            )
+                            print(
+                                f"Successfully appended deep blocks to parent {parent_id}")
+                        except APIResponseError as deep_append_error:
+                            print(
+                                f"Error appending deep blocks: {deep_append_error.code}")
+                            logging.error(
+                                f"Failed to append deep blocks: {deep_append_error}")
+                    else:
+                        print(
+                            f"Could not find block ID for parent path {parent_path}")
+
+            except APIResponseError as structure_error:
+                print(f"Error fetching page structure: {structure_error.code}")
+                logging.error(
+                    f"Failed to fetch page structure: {structure_error}")
+
 except APIResponseError as error:
     if error.code == APIErrorCode.ObjectNotFound:
         logging.error(error)
+    elif error.code == "validation_error":
+        logging.error("validation_error")
+        logging.error(error)
+
+        # Extract information about deeply nested blocks from the error message
+        error_msg = str(error)
+        if "children" in error_msg and "should be not present" in error_msg:
+            # Extract the problematic path from the error message
+            import re
+            path_match = re.search(
+                r'body\.children\[\d+\]\..*?children', error_msg)
+            if path_match:
+                problematic_path = path_match.group(0)
+                logging.error(
+                    f"Detected problematic deeply nested path: {problematic_path}")
+
+                # Count the nesting depth from the path
+                nesting_depth = problematic_path.count("children")
+                logging.error(
+                    f"Nesting depth of problematic blocks: {nesting_depth}")
+                logging.error(
+                    f"Consider reducing MAX_NESTING_DEPTH to {MAX_NESTING_DEPTH-1}")
+
+            # Log a warning that we need to extract more deeply nested blocks
+            logging.error(
+                "This error indicates blocks nested too deeply. Review MAX_NESTING_DEPTH setting.")
     else:
         # Other error handling code
         logging.error(error.code)

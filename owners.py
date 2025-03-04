@@ -45,38 +45,76 @@ try:
         # Print note name
         print(note.get("properties").get("Name").get(
             "title")[0].get("plain_text"))
-        currentOwner = note.get("properties").get("Owner").get("relation")
-        if len(currentOwner) == 0:
-            print("no owner " + note.get("properties").get("Name").get("title")
-                  [0].get("plain_text"))
-        else:
-            ownerEmail = getOwnerFromOldDb(currentOwner[0].get("id"))
-            print(ownerEmail)
-            if ownerEmail is not None:
-                owner = notion.databases.query(
-                    **{
-                        "database_id": "e2fa07c0424b473f994f176a636bec2a",
-                        "filter": {
-                            "property": "⚙️ Email",
-                            "rich_text": {
-                                "contains": ownerEmail,
-                            },
+        currentExperts = note.get("properties").get("Experts").get("people")
+        expertEmails = []
+        for expert in currentExperts:
+            if expert.get("person") is None:
+                print("no email")
+            else:
+                expertEmails.append(expert.get("person").get("email"))
+                print(expert.get("person").get("email"))
+        # Update page properties`New Experts`
+        newExpertsId = []
+        for email in expertEmails:
+            expert = notion.databases.query(
+                **{
+                    "database_id": "e2fa07c0424b473f994f176a636bec2a",
+                    "filter": {
+                        "property": "⚙️ Email",
+                        "rich_text": {
+                            "contains": email,
                         },
-                    }
-                )
-                if owner.get("results") == [] or len(owner.get("results")) > 1:
-                    print("Owner not found")
-                else:
-                    print("Owner found")
-                    owner_id = owner.get("results")[0].get("id")
-                    # Update page properties`New Owner`
-                    notion.pages.update(
-                        page_id=note.get("id"),
-                        properties={
-                            "New Owner": {"relation": [{"id": owner_id}]},
-                        }
-                    )
-                    print("Owner updated")
+                    },
+                }
+            )
+            if expert.get("results") == [] or len(expert.get("results")) > 1:
+                print("Expert not found")
+            else:
+                print("Expert found")
+                expert_id = expert.get("results")[0].get("id")
+                newExpertsId.append({"id": expert_id})
+        # Add new experts to the note
+        if len(newExpertsId) == 0:
+            print("no experts")
+        else:
+            notion.pages.update(
+                page_id=note.get("id"),
+                properties={
+                    "New Experts": {"relation": newExpertsId},
+                })
+            print("Experts updated")
+
+        # if len(currentOwner) == 0:
+        #     print("no owner " + note.get("properties").get("Name").get("title")
+        #           [0].get("plain_text"))
+        # else:
+        #     ownerEmail = getOwnerFromOldDb(currentOwner[0].get("id"))
+        #     print(ownerEmail)
+        #     if ownerEmail is not None:
+        #         owner = notion.databases.query(
+        #             **{
+        #                 "database_id": "e2fa07c0424b473f994f176a636bec2a",
+        #                 "filter": {
+        #                     "property": "⚙️ Email",
+        #                     "rich_text": {
+        #                         "contains": ownerEmail,
+        #                     },
+        #                 },
+        #             }
+        #         )
+        #         if owner.get("results") == [] or len(owner.get("results")) > 1:
+        #             print("Owner not found")
+        #         else:
+        #             print("Owner found")
+        #             owner_id = owner.get("results")[0].get("id")
+        #             # Update page properties`New Owner`
+        #             notion.pages.update(
+        #                 page_id=note.get("id"),
+        #                 properties={
+        #                     "New Owner": {"relation": [{"id": owner_id}]},
+        #                 }
+        #             )
+        #             print("Owner updated")
 
 except APIResponseError as error:
     if error.code == APIErrorCode.ObjectNotFound:
