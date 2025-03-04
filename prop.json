@@ -1,0 +1,106 @@
+{
+	"Edited By": {
+		"id": "%3A%5Dra",
+		"type": "last_edited_by",
+		"last_edited_by": {
+			"object": "user",
+			"id": "754d484f-8fc3-4948-9c9d-ce4536570a33",
+			"name": "Benjamin Sanvoisin",
+			"avatar_url": "https://lh6.googleusercontent.com/-pvZvLYFg5vU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re459fkuhbUeeyhRlyDm4V04l7grQ/photo.jpg",
+			"type": "person",
+			"person": {
+				"email": "benjamin.sanvoisin@theodo.com"
+			}
+		}
+	},
+	"Stack": {
+		"id": "BOYj",
+		"type": "multi_select",
+		"multi_select": [
+			{
+				"id": "c2de5768-920f-499e-b5e6-b77a76804670",
+				"name": "AzureDevOps",
+				"color": "brown"
+			}
+		]
+	},
+	"Created Time": {
+		"id": "BRqC",
+		"type": "created_time",
+		"created_time": "2024-01-31T13:58:00.000Z"
+	},
+	"Type": {
+		"id": "I%7Biu",
+		"type": "select",
+		"select": {
+			"id": "ce[K",
+			"name": "ADR",
+			"color": "red"
+		}
+	},
+	"Created By": {
+		"id": "jY%3Fw",
+		"type": "created_by",
+		"created_by": {
+			"object": "user",
+			"id": "3d607785-6511-4b07-ba27-f98d9bb6c4eb",
+			"name": "Joséphine Saint-Joanis",
+			"avatar_url": "https://lh3.googleusercontent.com/a/AGNmyxbxfXiIq64e1ZMHh19CB5yUrbEfQqlI8VBWoEAt=s100",
+			"type": "person",
+			"person": {
+				"email": "josephine.saintjoanis@theodo.com"
+			}
+		}
+	},
+	"Category": {
+		"id": "pk%3FM",
+		"type": "multi_select",
+		"multi_select": [
+			{
+				"id": "621ef5f6-5f82-481c-8f11-c22166fc392b",
+				"name": "Security",
+				"color": "red"
+			}
+		]
+	},
+	"Name": {
+		"id": "title",
+		"type": "title",
+		"title": [
+			{
+				"type": "text",
+				"text": {
+					"content": "ADR - ",
+					"link": null
+				},
+				"annotations": {
+					"bold": false,
+					"italic": false,
+					"strikethrough": false,
+					"underline": false,
+					"code": false,
+					"color": "default"
+				},
+				"plain_text": "ADR - ",
+				"href": null
+			},
+			{
+				"type": "text",
+				"text": {
+					"content": "Azure DevOps Agent Pool Strategy",
+					"link": null
+				},
+				"annotations": {
+					"bold": true,
+					"italic": false,
+					"strikethrough": false,
+					"underline": false,
+					"code": false,
+					"color": "default"
+				},
+				"plain_text": "Azure DevOps Agent Pool Strategy",
+				"href": null
+			}
+		]
+	}
+}

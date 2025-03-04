@@ -1,0 +1,3646 @@
+[
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8012-b66e-c0acb97dd376",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Date",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Date",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-804a-b8c4-fcb445934f71",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "date",
+						"date": {
+							"start": "2024-09-25",
+							"end": null,
+							"time_zone": null
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "2024-09-25",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8073-92a0-d3ef09f1d8ec",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Authors",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Authors",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80bd-8288-e97bce47614b",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "user",
+						"user": {
+							"object": "user",
+							"id": "324169f0-0c3b-4155-9626-b454f0d77d2b",
+							"name": "Clément Fages",
+							"avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/8955ba7d-764d-40a7-b96c-540ac0ee6fba/myface.jpg",
+							"type": "person",
+							"person": {
+								"email": "clement.fages@theodo.com"
+							}
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "@Clément Fages",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8065-957a-c26af7f32c6f",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "On-call people",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "On-call people",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-804c-a091-d68c1436c80f",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "user",
+						"user": {
+							"object": "user",
+							"id": "521762fe-4263-4781-bc65-3eb9dcba21a3",
+							"name": "Julien Jourdain",
+							"avatar_url": null,
+							"type": "person",
+							"person": {
+								"email": "julien.jourdain@theodo.com"
+							}
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "@Julien Jourdain",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " & ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " & ",
+					"href": null
+				},
+				{
+					"type": "mention",
+					"mention": {
+						"type": "user",
+						"user": {
+							"object": "user",
+							"id": "324169f0-0c3b-4155-9626-b454f0d77d2b",
+							"name": "Clément Fages",
+							"avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/8955ba7d-764d-40a7-b96c-540ac0ee6fba/myface.jpg",
+							"type": "person",
+							"person": {
+								"email": "clement.fages@theodo.com"
+							}
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "@Clément Fages",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80c1-a76f-c68d5802a671",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Status",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Status",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80dc-830f-db54f6b9f84d",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Resolved",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "green"
+					},
+					"plain_text": "Resolved",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8008-9c56-f98799ed55fc",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Summary",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Summary",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8053-9463-f4e8e8207d77",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Applications could not authenticate correctly to database as they didn’t have the valid password",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Applications could not authenticate correctly to database as they didn’t have the valid password",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8072-a337-ea3ffe221173",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Impact",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Impact",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "End users could not access to applications anymore as they were in ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "End users could not access to applications anymore as they were in ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "crashloopbackoff",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": true,
+						"color": "default"
+					},
+					"plain_text": "crashloopbackoff",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " state",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " state",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "f51b88ee-712d-4876-8043-3a4fc100f860",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Returned 503/504 errors to users",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Returned 503/504 errors to users",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Some applications were degraded",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Some applications were degraded",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "e242ad8e-37b6-4bdd-9e7e-e1e35d6d3539",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Half of the deployment was in ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Half of the deployment was in ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": "crashloopbackoff",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": true,
+									"color": "default"
+								},
+								"plain_text": "crashloopbackoff",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": " and the rest in ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": " and the rest in ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": "running",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": true,
+									"color": "default"
+								},
+								"plain_text": "running",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": " state",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": " state",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80db-a6be-d53de154166a",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Root Causes",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Root Causes",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8056-a6fa-f607ccd5c5d5",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Authentication failed for DB on all apps",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Authentication failed for DB on all apps",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Why ? →",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": true,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Why ? →",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " The password used by applications was not the correct one",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " The password used by applications was not the correct one",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"has_children": true,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Why ? → ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": true,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Why ? → ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": "The RDS password was rotated by AWS, but not the one used by applications",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "The RDS password was rotated by AWS, but not the one used by applications",
+								"href": null
+							}
+						],
+						"color": "default",
+						"children": [
+							{
+								"object": "block",
+								"has_children": true,
+								"archived": false,
+								"in_trash": false,
+								"type": "bulleted_list_item",
+								"bulleted_list_item": {
+									"rich_text": [
+										{
+											"type": "text",
+											"text": {
+												"content": "Why ? →",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": true,
+												"strikethrough": false,
+												"underline": false,
+												"code": false,
+												"color": "default"
+											},
+											"plain_text": "Why ? →",
+											"href": null
+										},
+										{
+											"type": "text",
+											"text": {
+												"content": " The password was not correctly synchronized between apps and database",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": false,
+												"strikethrough": false,
+												"underline": false,
+												"code": false,
+												"color": "default"
+											},
+											"plain_text": " The password was not correctly synchronized between apps and database",
+											"href": null
+										}
+									],
+									"color": "default",
+									"children": [
+										{
+											"object": "block",
+											"id": "3c520ac2-2124-4231-89b3-1710e7e89574",
+											"has_children": false,
+											"archived": false,
+											"in_trash": false,
+											"type": "bulleted_list_item",
+											"bulleted_list_item": {
+												"rich_text": [
+													{
+														"type": "text",
+														"text": {
+															"content": "Why ? → ",
+															"link": null
+														},
+														"annotations": {
+															"bold": false,
+															"italic": true,
+															"strikethrough": false,
+															"underline": false,
+															"code": false,
+															"color": "default"
+														},
+														"plain_text": "Why ? → ",
+														"href": null
+													},
+													{
+														"type": "text",
+														"text": {
+															"content": "The password was stored in two different secret manager entities (one for the app and one for the RDS)",
+															"link": null
+														},
+														"annotations": {
+															"bold": false,
+															"italic": false,
+															"strikethrough": false,
+															"underline": false,
+															"code": false,
+															"color": "orange"
+														},
+														"plain_text": "The password was stored in two different secret manager entities (one for the app and one for the RDS)",
+														"href": null
+													}
+												],
+												"color": "default"
+											}
+										}
+									]
+								}
+							},
+							{
+								"object": "block",
+								"has_children": true,
+								"archived": false,
+								"in_trash": false,
+								"type": "bulleted_list_item",
+								"bulleted_list_item": {
+									"rich_text": [
+										{
+											"type": "text",
+											"text": {
+												"content": "Why ? → ",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": true,
+												"strikethrough": false,
+												"underline": false,
+												"code": false,
+												"color": "default"
+											},
+											"plain_text": "Why ? → ",
+											"href": null
+										},
+										{
+											"type": "text",
+											"text": {
+												"content": "The password was rotated after a ",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": false,
+												"strikethrough": false,
+												"underline": false,
+												"code": true,
+												"color": "default"
+											},
+											"plain_text": "The password was rotated after a ",
+											"href": null
+										},
+										{
+											"type": "text",
+											"text": {
+												"content": "terragrunt apply",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": false,
+												"strikethrough": false,
+												"underline": false,
+												"code": true,
+												"color": "default"
+											},
+											"plain_text": "terragrunt apply",
+											"href": null
+										},
+										{
+											"type": "text",
+											"text": {
+												"content": " of new resources (following the migration database cluster operation)",
+												"link": null
+											},
+											"annotations": {
+												"bold": false,
+												"italic": false,
+												"strikethrough": false,
+												"underline": false,
+												"code": false,
+												"color": "default"
+											},
+											"plain_text": " of new resources (following the migration database cluster operation)",
+											"href": null
+										}
+									],
+									"color": "default",
+									"children": [
+										{
+											"object": "block",
+											"has_children": true,
+											"archived": false,
+											"in_trash": false,
+											"type": "bulleted_list_item",
+											"bulleted_list_item": {
+												"rich_text": [
+													{
+														"type": "text",
+														"text": {
+															"content": "Why ? → ",
+															"link": null
+														},
+														"annotations": {
+															"bold": false,
+															"italic": true,
+															"strikethrough": false,
+															"underline": false,
+															"code": false,
+															"color": "default"
+														},
+														"plain_text": "Why ? → ",
+														"href": null
+													},
+													{
+														"type": "text",
+														"text": {
+															"content": "It was a self-managed resource by AWS, so we don’t have control on its rotation",
+															"link": null
+														},
+														"annotations": {
+															"bold": false,
+															"italic": false,
+															"strikethrough": false,
+															"underline": false,
+															"code": false,
+															"color": "default"
+														},
+														"plain_text": "It was a self-managed resource by AWS, so we don’t have control on its rotation",
+														"href": null
+													}
+												],
+												"color": "default",
+												"children": [
+													{
+														"object": "block",
+														"has_children": true,
+														"archived": false,
+														"in_trash": false,
+														"type": "bulleted_list_item",
+														"bulleted_list_item": {
+															"rich_text": [
+																{
+																	"type": "text",
+																	"text": {
+																		"content": "Why ? → ",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": false,
+																		"italic": true,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": "Why ? → ",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": "We didn’t set the variable",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": false,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": "We didn’t set the variable",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": " ",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": false,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": " ",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": "manage_master_user_password",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": true,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": true,
+																		"color": "default"
+																	},
+																	"plain_text": "manage_master_user_password",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": " ",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": true,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": " ",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": "to",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": false,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": "to",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": " ",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": true,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": false,
+																		"color": "default"
+																	},
+																	"plain_text": " ",
+																	"href": null
+																},
+																{
+																	"type": "text",
+																	"text": {
+																		"content": "false",
+																		"link": null
+																	},
+																	"annotations": {
+																		"bold": true,
+																		"italic": false,
+																		"strikethrough": false,
+																		"underline": false,
+																		"code": true,
+																		"color": "default"
+																	},
+																	"plain_text": "false",
+																	"href": null
+																}
+															],
+															"color": "default",
+															"children": [
+																{
+																	"object": "block",
+																	"id": "463341f3-11bb-4879-93a4-7e685bd15e4f",
+																	"has_children": false,
+																	"archived": false,
+																	"in_trash": false,
+																	"type": "bulleted_list_item",
+																	"bulleted_list_item": {
+																		"rich_text": [
+																			{
+																				"type": "text",
+																				"text": {
+																					"content": "Why ?",
+																					"link": null
+																				},
+																				"annotations": {
+																					"bold": false,
+																					"italic": true,
+																					"strikethrough": false,
+																					"underline": false,
+																					"code": false,
+																					"color": "default"
+																				},
+																				"plain_text": "Why ?",
+																				"href": null
+																			},
+																			{
+																				"type": "text",
+																				"text": {
+																					"content": " → ",
+																					"link": null
+																				},
+																				"annotations": {
+																					"bold": false,
+																					"italic": false,
+																					"strikethrough": false,
+																					"underline": false,
+																					"code": false,
+																					"color": "default"
+																				},
+																				"plain_text": " → ",
+																				"href": null
+																			},
+																			{
+																				"type": "text",
+																				"text": {
+																					"content": "We didn’t know Aurora manage the secret itself by default",
+																					"link": null
+																				},
+																				"annotations": {
+																					"bold": false,
+																					"italic": false,
+																					"strikethrough": false,
+																					"underline": false,
+																					"code": false,
+																					"color": "orange"
+																				},
+																				"plain_text": "We didn’t know Aurora manage the secret itself by default",
+																				"href": null
+																			}
+																		],
+																		"color": "default"
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-809d-a282-ce29d6820996",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Trigger",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Trigger",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-809d-9e8f-ca9eb80bf6f1",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "The “apply” of new terraform resources rotate the password of the RDS without user consent as it is managed by AWS.",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "The “apply” of new terraform resources rotate the password of the RDS without user consent as it is managed by AWS.",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-808f-88c2-f0d1f4430348",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Resolution",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Resolution",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-809d-9a87-e58c5d7df9d3",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "numbered_list_item",
+		"numbered_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Remove the AWS managed password from RDS to self-managed password in order to control its rotation",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Remove the AWS managed password from RDS to self-managed password in order to control its rotation",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-803a-a177-da033140913a",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "numbered_list_item",
+		"numbered_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Synchronize the password back between the RDS and the applications",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Synchronize the password back between the RDS and the applications",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80a5-8255-eb76c7aaaef2",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_2",
+		"heading_2": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Action Items",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Action Items",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80ad-ac79-e0d0fbdc4b5f",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "divider",
+		"divider": {}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "table",
+		"table": {
+			"table_width": 4,
+			"has_column_header": true,
+			"has_row_header": false,
+			"children": [
+				{
+					"object": "block",
+					"id": "41b25247-0115-4335-9a27-9859bd36488d",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "table_row",
+					"table_row": {
+						"cells": [
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Action Item",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Action Item",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Type",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Type",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Owner",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Owner",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Status",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Status",
+									"href": null
+								}
+							]
+						]
+					}
+				},
+				{
+					"object": "block",
+					"id": "53837520-70e6-4bba-aae2-463691f9de9e",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "table_row",
+					"table_row": {
+						"cells": [
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Synchronize application and RDS password",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Synchronize application and RDS password",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "fix",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "fix",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Clement Fages",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Clement Fages",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Done",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "green"
+									},
+									"plain_text": "Done",
+									"href": null
+								}
+							]
+						]
+					}
+				},
+				{
+					"object": "block",
+					"id": "3bbadaed-007d-4968-9de9-8591cd97c02a",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "table_row",
+					"table_row": {
+						"cells": [
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Set the variable ",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Set the variable ",
+									"href": null
+								},
+								{
+									"type": "text",
+									"text": {
+										"content": "manage_master_user_password",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": true,
+										"color": "default"
+									},
+									"plain_text": "manage_master_user_password",
+									"href": null
+								},
+								{
+									"type": "text",
+									"text": {
+										"content": " to ",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": " to ",
+									"href": null
+								},
+								{
+									"type": "text",
+									"text": {
+										"content": "false",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": true,
+										"color": "default"
+									},
+									"plain_text": "false",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "fix",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "fix",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Clement Fages",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Clement Fages",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Done",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "green"
+									},
+									"plain_text": "Done",
+									"href": null
+								}
+							]
+						]
+					}
+				},
+				{
+					"object": "block",
+					"id": "d87f8b76-41d8-4294-ae60-3823f5d289f5",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "table_row",
+					"table_row": {
+						"cells": [
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Review the postmortem in Yokotentech and discuss this incident",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Review the postmortem in Yokotentech and discuss this incident",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "communication",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "communication",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Julien Jourdain",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Julien Jourdain",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "To do",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "orange"
+									},
+									"plain_text": "To do",
+									"href": null
+								}
+							]
+						]
+					}
+				},
+				{
+					"object": "block",
+					"id": "783637f8-8b94-4f3c-b9e4-5e5ac85716f5",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "table_row",
+					"table_row": {
+						"cells": [
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Make a dantotsu to prevent such issues to happen again",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Make a dantotsu to prevent such issues to happen again",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "self-improvement",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "self-improvement",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "Thibaut Robinet & Clement Fages",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "default"
+									},
+									"plain_text": "Thibaut Robinet & Clement Fages",
+									"href": null
+								}
+							],
+							[
+								{
+									"type": "text",
+									"text": {
+										"content": "To do",
+										"link": null
+									},
+									"annotations": {
+										"bold": false,
+										"italic": false,
+										"strikethrough": false,
+										"underline": false,
+										"code": false,
+										"color": "orange"
+									},
+									"plain_text": "To do",
+									"href": null
+								}
+							]
+						]
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8034-bcc2-f3cf5a3aef80",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_2",
+		"heading_2": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Lessons Learned",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Lessons Learned",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-808a-8bae-fb2b0a5edda5",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "divider",
+		"divider": {}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-806a-9c3c-ff460fde30ef",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "What went well",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "What went well",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-803c-bdc6-dab5d1bf3147",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Applications logged the correct error which enable us to get how to fix the problem very quickly",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Applications logged the correct error which enable us to get how to fix the problem very quickly",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80e7-916f-ea8ffc242afb",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "On-call team was available to make rotation shift with run team",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "On-call team was available to make rotation shift with run team",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8095-93ac-c051c38d619e",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "What went wrong",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "What went wrong",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80d7-8030-feb56c9feba9",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "N/A",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "N/A",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-800c-a400-e3dfbdc0064c",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_3",
+		"heading_3": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Where we got lucky",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Where we got lucky",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80d6-9831-c3d2146cecc5",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Not all apps were in ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Not all apps were in ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "crashloopbackoff",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": true,
+						"color": "default"
+					},
+					"plain_text": "crashloopbackoff",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " state because they didn’t restart",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " state because they didn’t restart",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8079-95ce-e647dbcddf01",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_2",
+		"heading_2": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Timeline ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Timeline ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "(all times CET)",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": true,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "(all times CET)",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8089-b784-f52619d9a116",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "divider",
+		"divider": {}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80ed-8259-f732fa516758",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "date",
+						"date": {
+							"start": "2024-09-22",
+							"end": null,
+							"time_zone": null
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "2024-09-22",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8026-9b76-ec2e9b4861dc",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "All operation is detailed here (with the timeline) : ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "All operation is detailed here (with the timeline) : ",
+					"href": null
+				},
+				{
+					"type": "mention",
+					"mention": {
+						"type": "link_preview",
+						"link_preview": {
+							"url": "https://padok.slack.com/archives/C045M9HAQJ2/p1727040858940299?thread_ts=1727038415.025739&cid=C045M9HAQJ2"
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "https://padok.slack.com/archives/C045M9HAQJ2/p1727040858940299?thread_ts=1727038415.025739&cid=C045M9HAQJ2",
+					"href": "https://padok.slack.com/archives/C045M9HAQJ2/p1727040858940299?thread_ts=1727038415.025739&cid=C045M9HAQJ2"
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80b2-a5e4-e2fe1a1f6801",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "date",
+						"date": {
+							"start": "2024-09-23",
+							"end": null,
+							"time_zone": null
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "2024-09-23",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-800e-a3d2-da338e7d234f",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "23h30",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "23h30",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": ThibautR created new resources to fix some of the drift from the migration operation",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": ThibautR created new resources to fix some of the drift from the migration operation",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80ba-892a-e1b91283f1c6",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "date",
+						"date": {
+							"start": "2024-09-24",
+							"end": null,
+							"time_zone": null
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "2024-09-24",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-803b-973a-cb542920a27f",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "00h12",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "00h12",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": RDS rotated its secret after new ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": RDS rotated its secret after new ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "terraform apply",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": true,
+						"color": "default"
+					},
+					"plain_text": "terraform apply",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-808a-9c2a-f6d736e93ef0",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "00h15",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "00h15",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Apps started to fail to connect to DB",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Apps started to fail to connect to DB",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80b7-892f-f35575c1d4b0",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [
+				{
+					"type": "mention",
+					"mention": {
+						"type": "date",
+						"date": {
+							"start": "2024-09-25",
+							"end": null,
+							"time_zone": null
+						}
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "2024-09-25",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " ",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "7h27",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "7h27",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Agorize team noticed there is a problem with their apps → some of them returned ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Agorize team noticed there is a problem with their apps → some of them returned ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "5xx",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": true,
+						"color": "default"
+					},
+					"plain_text": "5xx",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " errors",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " errors",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "ff582521-3725-481c-9177-9e5e4065598a",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "mention",
+								"mention": {
+									"type": "link_preview",
+									"link_preview": {
+										"url": "https://padok.slack.com/archives/C045M9HAQJ2/p1727155621382959"
+									}
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "https://padok.slack.com/archives/C045M9HAQJ2/p1727155621382959",
+								"href": "https://padok.slack.com/archives/C045M9HAQJ2/p1727155621382959"
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "8h20",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "8h20",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Agorize create ticket incident",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Agorize create ticket incident",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "529b9a20-5cbe-4aae-bc7f-5707448d0a55",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "mention",
+								"mention": {
+									"type": "link_mention",
+									"link_mention": {
+										"href": "https://padok.atlassian.net/servicedesk/customer/portal/4/RS-1078?created=true",
+										"title": "padok.atlassian.net"
+									}
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "https://padok.atlassian.net/servicedesk/customer/portal/4/RS-1078?created=true",
+								"href": "https://padok.atlassian.net/servicedesk/customer/portal/4/RS-1078?created=true"
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8068-8abf-e701ad21eef4",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "8h23",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "8h23",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": On-call team check the error, they understand it is a password problem",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": On-call team check the error, they understand it is a password problem",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80e5-8706-e4683626a45c",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "8h45",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "8h45",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": They try to re-sync the password by the changing the one used by applications",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": They try to re-sync the password by the changing the one used by applications",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "9h",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "9h",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": New error appeared, the password is not correctly caught by the application",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": New error appeared, the password is not correctly caught by the application",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "c71f2a4a-3656-4f70-a842-9269092ea63c",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Some special characters are breaking the URI database connection (such as ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Some special characters are breaking the URI database connection (such as ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": "%",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": true,
+									"color": "default"
+								},
+								"plain_text": "%",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": ", ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": ", ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": "’",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": true,
+									"color": "default"
+								},
+								"plain_text": "’",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": ", ",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": ", ",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": ":",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": true,
+									"color": "default"
+								},
+								"plain_text": ":",
+								"href": null
+							},
+							{
+								"type": "text",
+								"text": {
+									"content": ")",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": ")",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80ed-89fb-ca0c1ed04c0a",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "9h27",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "9h27",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": On-call team try to change the password from the terraform module so it doesn’t have special characters → it doesn’t work",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": On-call team try to change the password from the terraform module so it doesn’t have special characters → it doesn’t work",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8047-b5ab-eaa95bc3be88",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "9h30: ",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "9h30: ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "Run team take the issue from on-call team",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Run team take the issue from on-call team",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"has_children": true,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Until 11h",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Until 11h",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Run team reverse-engineered the terraform module of RDS AWS to understand why the password still have special characters",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Run team reverse-engineered the terraform module of RDS AWS to understand why the password still have special characters",
+					"href": null
+				}
+			],
+			"color": "default",
+			"children": [
+				{
+					"object": "block",
+					"id": "5bcea885-dad1-421a-ba86-711726857bfb",
+					"has_children": false,
+					"archived": false,
+					"in_trash": false,
+					"type": "bulleted_list_item",
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "They understand it is because it is managed by AWS so we don’t have control on it",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "They understand it is because it is managed by AWS so we don’t have control on it",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8026-b204-c2b28d1a981e",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "11h12",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "11h12",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Password is set to ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Password is set to ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "self-managed",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": true,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "self-managed",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " and rotated by run team (now they have control on it)",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " and rotated by run team (now they have control on it)",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80f4-87ea-cd2abea4b5ba",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "11h30",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "11h30",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": Run team synchronized the application password with the new RDS one (self-managed this time)",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": Run team synchronized the application password with the new RDS one (self-managed this time)",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80fe-9475-ccef34e3199e",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bulleted_list_item",
+		"bulleted_list_item": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Until 12h18",
+						"link": null
+					},
+					"annotations": {
+						"bold": true,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Until 12h18",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": ": External secret and deployments in kubernetes are restarted to be back in ",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": ": External secret and deployments in kubernetes are restarted to be back in ",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": "running",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": true,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "running",
+					"href": null
+				},
+				{
+					"type": "text",
+					"text": {
+						"content": " state",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": " state",
+					"href": null
+				}
+			],
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-807f-b0ac-d28e1041bea1",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "heading_2",
+		"heading_2": {
+			"rich_text": [
+				{
+					"type": "text",
+					"text": {
+						"content": "Supporting Information",
+						"link": null
+					},
+					"annotations": {
+						"bold": false,
+						"italic": false,
+						"strikethrough": false,
+						"underline": false,
+						"code": false,
+						"color": "default"
+					},
+					"plain_text": "Supporting Information",
+					"href": null
+				}
+			],
+			"is_toggleable": false,
+			"color": "default"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80b2-815b-f25dd8f8706e",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "divider",
+		"divider": {}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80b6-bfbc-e7330be6bcf3",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bookmark",
+		"bookmark": {
+			"caption": [],
+			"url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-8062-aa47-dc533dfc991a",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "bookmark",
+		"bookmark": {
+			"caption": [],
+			"url": "https://registry.terraform.io/modules/terraform-aws-modules/rds/aws/latest"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-80b1-9eb8-caabecbb1307",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "link_preview",
+		"link_preview": {
+			"url": "https://github.com/terraform-aws-modules/terraform-aws-rds/blob/a76a3cd92220b91eaa467a5328db6f2c21e1fdee/modules/db_instance/main.tf#L214"
+		}
+	},
+	{
+		"object": "block",
+		"id": "11b8f377-6f4f-800b-8000-fcd3e9307ad2",
+		"has_children": false,
+		"archived": false,
+		"in_trash": false,
+		"type": "paragraph",
+		"paragraph": {
+			"rich_text": [],
+			"color": "default"
+		}
+	}
+]
